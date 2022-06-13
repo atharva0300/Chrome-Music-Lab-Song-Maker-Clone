@@ -1,0 +1,33 @@
+{
+  "name": "chrome-music-lab-song-maker-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "npm start --prefix client",
+    "server": "nodemon server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharva0300/Chrome-Music-Lab-Song-Maker-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharva0300/Chrome-Music-Lab-Song-Maker-Clone/issues"
+  },
+  "homepage": "https://github.com/atharva0300/Chrome-Music-Lab-Song-Maker-Clone#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.2.1",
+    "express": "^4.18.1",
+    "kill-port": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
