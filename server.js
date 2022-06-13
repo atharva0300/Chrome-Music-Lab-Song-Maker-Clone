@@ -5,6 +5,7 @@ const app = express();
 app.use(express());
 
 const PORT = process.env.PORT || 5000;
+console.log('Server running');
 
 
 app.listen(PORT , () => {
